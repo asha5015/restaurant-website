@@ -3,14 +3,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Desserts - Restaurant Menu</title>
+    <title>Restaurant Menu</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
     <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
     <header class="bg-dark text-white text-center py-4">
         <div class="container">
-            <h1 class="mb-3">Restaurant Name</h1>
+            <h1 class="mb-3">Togo Home restaurant</h1>
             <nav class="navbar navbar-expand-lg navbar-dark">
                 <a class="navbar-brand" href="index.html">Home</a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -29,30 +29,51 @@
     </header>
 
     <main class="py-5">
-        <div class="container">
-            <section id="desserts">
-                <h2 class="mb-4 text-center">Desserts</h2>
-                <div class="row">
-                    <div class="col-md-6 mb-4">
-                        <div class="card">
-                            <img src="images/chocolate_cake.jpg" class="card-img-top" alt="Chocolate Cake">
-                            <div class="card-body">
-                                <h5 class="card-title">Chocolate Cake</h5>
-                                <p class="card-text">Rich chocolate cake with a creamy frosting. <span class="price">$6.99</span></p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-6 mb-4">
-                        <div class="card">
-                            <img src="images/ice_cream.jpg" class="card-img-top" alt="Ice Cream">
-                            <div class="card-body">
-                                <h5 class="card-title">Ice Cream</h5>
-                                <p class="card-text">Vanilla ice cream with a choice of toppings. <span class="price">$4.99</span></p>
-                            </div>
+        <div class="container text-center">
+            <h2 class="mb-4">Welcome to Our Restaurant</h2>
+            <p class="lead mb-5">Explore our delicious menu and enjoy a wonderful dining experience.</p>
+            <div class="row">
+                <div class="col-md-3 mb-4">
+                    <div class="card">
+                        <img src="/image/appetizer.jpg" class="card-img-top" alt="Appetizers">
+                        <div class="card-body">
+                            <h5 class="card-title">Appetizers</h5>
+                            <p class="card-text">Start your meal with our delightful appetizers.</p>
+                            <a href="appetizers.html" class="btn btn-primary">View Appetizers</a>
                         </div>
                     </div>
                 </div>
-            </section>
+                <div class="col-md-3 mb-4">
+                    <div class="card">
+                        <img src="/image/grilled_chicken.jpg" class="card-img-top" alt="Main Courses">
+                        <div class="card-body">
+                            <h5 class="card-title">Main Courses</h5>
+                            <p class="card-text">Enjoy our delicious main courses.</p>
+                            <a href="main_courses.html" class="btn btn-primary">View Main Courses</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 mb-4">
+                    <div class="card">
+                        <img src="/image/chocolate_cake.jpg" class="card-img-top" alt="Desserts">
+                        <div class="card-body">
+                            <h5 class="card-title">Desserts</h5>
+                            <p class="card-text">Indulge in our sweet and savory desserts.</p>
+                            <a href="desserts.html" class="btn btn-primary">View Desserts</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 mb-4">
+                    <div class="card">
+                        <img src="/image/lemonade.jpg" class="card-img-top" alt="Beverages">
+                        <div class="card-body">
+                            <h5 class="card-title">Beverages</h5>
+                            <p class="card-text">Quench your thirst with our refreshing beverages.</p>
+                            <a href="beverages.html" class="btn btn-primary">View Beverages</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
     </main>
 
@@ -62,7 +83,8 @@
         </div>
     </footer>
 
-   <script src="restaurant.js"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 </body>
 </html>
